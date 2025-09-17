@@ -27,17 +27,16 @@ class Ball
 
     public void Update(GameTime gameTime)
     {
-        if(!ballPassedMiddle)
+        if (!ballPassedMiddle)
         {
-            if(Math.Abs(pos.X - Pong.ScreenSize.X / 2) <= 10)
+            if (Math.Abs(pos.X - Pong.ScreenSize.X / 2) <= 10)
             {
-                Debug.WriteLine("Ball passed middle on: " + pos.Y);
                 ballPassedMiddle = true;
             }
         }
-        
-        ballColor = new Color(255, 255 - redComponent * (255 / 20), 255 - redComponent * (255 / 20)); 
-        
+
+        ballColor = new Color(255, 255 - redComponent * (255 / 20), 255 - redComponent * (255 / 20));
+
         float dt = (float)gameTime.ElapsedGameTime.TotalSeconds;
         pos += vel * dt;
 
@@ -47,36 +46,35 @@ class Ball
             Reset();
             Pong.GameWorld.powerUp.Reset();
         }
-        else if(pos.X > Pong.ScreenSize.X + or.X)
+        else if (pos.X > Pong.ScreenSize.X + or.X)
         {
             Pong.GameWorld.score1++;
             Reset();
             Pong.GameWorld.powerUp.Reset();
         }
-        
+
         if (pos.Y < 0 + or.X || pos.Y > Pong.ScreenSize.Y - or.X)
         {
             vel.Y = -vel.Y;
         }
 
 
-      if ((BoundingBox.Intersects(Pong.GameWorld.PaddleL.BoundingBox)) || (BoundingBox.Intersects(Pong.GameWorld.PaddleR.BoundingBox)))
+        if ((BoundingBox.Intersects(Pong.GameWorld.PaddleL.BoundingBox)) || (BoundingBox.Intersects(Pong.GameWorld.PaddleR.BoundingBox)))
         {
-        if(ballPassedMiddle)
-        {
-          
-          if (speedDecreaseMustHappen)
-          {
-              vel /= 1.5f;
-              redComponent -= 5;
-              speedDecreaseMustHappen = false;      
-           }
-           if (Pong.GameWorld.roundsTillNextAbility > 0)
-           {
-               Pong.GameWorld.roundsTillNextAbility--;
-           }
-          
-           if (Pong.GameWorld.abilityInUse)
+            if (ballPassedMiddle)
+            {
+                if (speedDecreaseMustHappen)
+                {
+                    vel /= 1.5f;
+                    redComponent -= 5;
+                    speedDecreaseMustHappen = false;
+                }
+                if (Pong.GameWorld.roundsTillNextAbility > 0)
+                {
+                    Pong.GameWorld.roundsTillNextAbility--;
+                }
+
+                if (Pong.GameWorld.abilityInUse)
                 {
                     if ((BoundingBox.Intersects(Pong.GameWorld.PaddleL.BoundingBox) && Pong.GameWorld.spawnSide == 0) ||
                            (BoundingBox.Intersects(Pong.GameWorld.PaddleR.BoundingBox) && Pong.GameWorld.spawnSide == 1))
@@ -90,35 +88,22 @@ class Ball
                         }
                     }
                 }
-          if (BoundingBox.Intersects(Pong.GameWorld.Paddle1.BoundingBox))
-          {
-              double angle = (pos.Y - Pong.GameWorld.Paddle1.pos.Y) / (Pong.GameWorld.Paddle1.paddle.Height) * (2.0f / 3.0f) * Math.PI;
-              vel.X = (float)Math.Cos(angle) * speed;
-              vel.Y = (float)Math.Sin(angle) * speed;
-
-              vel *= speedIncrease;
-
-              if (redComponent < 20) redComponent++;
-              Debug.WriteLine("hello " + pos.Y);
-          }
-          if (BoundingBox.Intersects(Pong.GameWorld.Paddle2.BoundingBox))
-          {
-              double angle = (pos.Y - Pong.GameWorld.Paddle2.pos.Y) / (Pong.GameWorld.Paddle2.paddle.Height) * (2.0f / 3.0f * Math.PI);
-              vel.X = (float)Math.Cos(angle) * -speed;
-              vel.Y = (float)Math.Sin(angle) * speed;
-
-              vel *= speedIncrease;
-
-              if (redComponent < 20) redComponent++;
-              Debug.WriteLine("hello " + pos.Y);
-          }
-          
-          
-        }
+                
+                if (BoundingBox.Intersects(Pong.GameWorld.Paddle1.BoundingBox))
+                {
+                    double angle = (pos.Y - Pong.GameWorld.Paddle1.pos.Y) / (Pong.GameWorld.Paddle1.paddle.Height) * (2.0f / 3.0f) * Math.PI;
+                    vel.X = (float)Math.Cos(angle) * speed;
+                    vel.Y = (float)Math.Sin(angle) * speed;
+                }
+                if (BoundingBox.Intersects(Pong.GameWorld.Paddle2.BoundingBox))
+                {
+                    double angle = (pos.Y - Pong.GameWorld.Paddle2.pos.Y) / (Pong.GameWorld.Paddle2.paddle.Height) * (2.0f / 3.0f * Math.PI);
+                    vel.X = (float)Math.Cos(angle) * -speed;
+                    vel.Y = (float)Math.Sin(angle) * speed;
+                }
 
                 ballPassedMiddle = false;
-               
-                if(redComponent < 15)
+                if (redComponent < 15)
                 {
                     vel *= speedIncrease;
                     redComponent++;
@@ -126,6 +111,7 @@ class Ball
             }
         }
     }
+    
 
     public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
     {

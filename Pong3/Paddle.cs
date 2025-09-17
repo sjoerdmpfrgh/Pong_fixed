@@ -62,6 +62,7 @@ class Paddle
     {
         float dt = (float)gameTime.ElapsedGameTime.TotalSeconds;
         pos.Y += yDir * dt;
+
         if (Pong.GameWorld.abilityInUse && Pong.GameWorld.playerAffected == player)
         {
             if(Pong.GameWorld.abilityGenerated == 0)
