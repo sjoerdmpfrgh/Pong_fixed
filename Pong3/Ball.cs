@@ -59,22 +59,24 @@ class Ball
             vel.Y = -vel.Y;
         }
 
-        if ((BoundingBox.Intersects(Pong.GameWorld.PaddleL.BoundingBox)) || (BoundingBox.Intersects(Pong.GameWorld.PaddleR.BoundingBox)))
-        {
-            if (ballPassedMiddle)
-            {
-                if (speedDecreaseMustHappen)
-                {
-                    vel /= 1.5f;
-                    redComponent -= 5;
-                    speedDecreaseMustHappen = false;
-                }
-                if (Pong.GameWorld.roundsTillNextAbility > 0)
-                {
-                    Pong.GameWorld.roundsTillNextAbility--;
-                }
 
-                if (Pong.GameWorld.abilityInUse)
+      if ((BoundingBox.Intersects(Pong.GameWorld.PaddleL.BoundingBox)) || (BoundingBox.Intersects(Pong.GameWorld.PaddleR.BoundingBox)))
+        {
+        if(ballPassedMiddle)
+        {
+          
+          if (speedDecreaseMustHappen)
+          {
+              vel /= 1.5f;
+              redComponent -= 5;
+              speedDecreaseMustHappen = false;      
+           }
+           if (Pong.GameWorld.roundsTillNextAbility > 0)
+           {
+               Pong.GameWorld.roundsTillNextAbility--;
+           }
+          
+           if (Pong.GameWorld.abilityInUse)
                 {
                     if ((BoundingBox.Intersects(Pong.GameWorld.PaddleL.BoundingBox) && Pong.GameWorld.spawnSide == 0) ||
                            (BoundingBox.Intersects(Pong.GameWorld.PaddleR.BoundingBox) && Pong.GameWorld.spawnSide == 1))
@@ -88,8 +90,34 @@ class Ball
                         }
                     }
                 }
+          if (BoundingBox.Intersects(Pong.GameWorld.Paddle1.BoundingBox))
+          {
+              double angle = (pos.Y - Pong.GameWorld.Paddle1.pos.Y) / (Pong.GameWorld.Paddle1.paddle.Height) * (2.0f / 3.0f) * Math.PI;
+              vel.X = (float)Math.Cos(angle) * speed;
+              vel.Y = (float)Math.Sin(angle) * speed;
+
+              vel *= speedIncrease;
+
+              if (redComponent < 20) redComponent++;
+              Debug.WriteLine("hello " + pos.Y);
+          }
+          if (BoundingBox.Intersects(Pong.GameWorld.Paddle2.BoundingBox))
+          {
+              double angle = (pos.Y - Pong.GameWorld.Paddle2.pos.Y) / (Pong.GameWorld.Paddle2.paddle.Height) * (2.0f / 3.0f * Math.PI);
+              vel.X = (float)Math.Cos(angle) * -speed;
+              vel.Y = (float)Math.Sin(angle) * speed;
+
+              vel *= speedIncrease;
+
+              if (redComponent < 20) redComponent++;
+              Debug.WriteLine("hello " + pos.Y);
+          }
+          
+          
+        }
+
                 ballPassedMiddle = false;
-                vel.X = -vel.X;
+               
                 if(redComponent < 15)
                 {
                     vel *= speedIncrease;
