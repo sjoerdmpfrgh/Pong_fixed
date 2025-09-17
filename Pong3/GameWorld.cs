@@ -2,17 +2,20 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Reflection;
 
 class GameWorld
 {
     Ball ball;
-    Paddle paddle1, paddle2; 
+    Paddle paddle1, paddle2;
     
     int playPhase = 0; //0 = opening screen, 1 = playing, 2 = game over
-
+    public static Random r2 = new Random();
+    public int roundsTillNextAbility = r2.Next(5, 10);
     public int score1 = 0;
     public int score2 = 0;
+    public bool abilitySpawned = false;
     string displayText = "Press Space to Start"; 
     
     SpriteFont font1, font2, font3;
@@ -81,6 +84,7 @@ class GameWorld
 
     public void Update(GameTime gameTime)
     {
+
         if (playPhase == 1)
         {
             ball.Update(gameTime);

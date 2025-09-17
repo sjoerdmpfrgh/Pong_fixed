@@ -12,18 +12,28 @@ class Ball
     float speed, speedIncrease;
     Color ballColor = new Color(255, 255, 255);
     int redComponent = 0;
+    public static bool ballPassedMiddle = true;
 
     public Ball(ContentManager Content)
     {
         ball = Content.Load<Texture2D>("ball");
         or = new Vector2(ball.Width, ball.Height) / 2;
         speed = 300.0f;
-        speedIncrease = 1.1f;
+        speedIncrease = 1.05f;
         Reset();
     }
 
     public void Update(GameTime gameTime)
     {
+        if(!ballPassedMiddle)
+        {
+            if(Math.Abs(pos.X - Pong.ScreenSize.X / 2) <= 10)
+            {
+                Debug.WriteLine("Ball passed middle on: " + pos.Y);
+                ballPassedMiddle = true;
+            }
+        }
+        
         ballColor = new Color(255, 255 - redComponent * (255 / 20), 255 - redComponent * (255 / 20)); 
         
         float dt = (float)gameTime.ElapsedGameTime.TotalSeconds;
@@ -47,11 +57,14 @@ class Ball
 
         if ((BoundingBox.Intersects(Pong.GameWorld.PaddleL.BoundingBox))|| (BoundingBox.Intersects(Pong.GameWorld.PaddleR.BoundingBox)))
         {
-            vel.X = -vel.X;
-            vel *= speedIncrease;
-
-            if (redComponent < 20) redComponent++;
-            Debug.WriteLine("hello " + pos.Y);
+            if(ballPassedMiddle) 
+            {
+                Pong.GameWorld.roundsTillNextAbility--;
+                ballPassedMiddle = false;
+                vel.X = -vel.X;
+                vel *= speedIncrease;
+                if (redComponent < 20) redComponent++;
+            }
         }
 
     }

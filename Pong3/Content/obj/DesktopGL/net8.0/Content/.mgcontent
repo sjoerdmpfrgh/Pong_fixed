@@ -4,13 +4,13 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/ArrowsUpDown.png</File>
-    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/ball.png</File>
-    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/keysUpDown.png</File>
-    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/MyMenuFont.spritefont</File>
-    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/MyMenuFont2.spritefont</File>
-    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/MyMenuFont2Smaller.spritefont</File>
-    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/paddle.png</File>
+    <File>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/ArrowsUpDown.png</File>
+    <File>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/ball.png</File>
+    <File>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/keysUpDown.png</File>
+    <File>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/MyMenuFont.spritefont</File>
+    <File>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/MyMenuFont2.spritefont</File>
+    <File>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/MyMenuFont2Smaller.spritefont</File>
+    <File>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/paddle.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
