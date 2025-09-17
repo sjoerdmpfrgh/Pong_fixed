@@ -1,0 +1,115 @@
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\Pong.exe
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\Pong.deps.json
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\Pong.runtimeconfig.json
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\Pong.pdb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\NVorbis.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\Pong.csproj.AssemblyReference.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\Pong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\Pong.AssemblyInfoInputs.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\Pong.AssemblyInfo.cs
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\Pong.csproj.CoreCompileInputs.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\Pong.csproj.Up2Date
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\refint\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\Pong.pdb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\Pong.genruntimeconfig.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\obj\Debug\net8.0\ref\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\Content\background.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\Content\ball.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong\bin\Debug\net8.0\Content\paddle.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Content\background.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Content\ArrowsUpDown.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Content\ball.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Content\keysUpDown.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Content\MyMenuFont.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Content\MyMenuFont2.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Content\MyMenuFont2Smaller.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Content\paddle.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Pong.exe
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Pong.deps.json
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Pong.runtimeconfig.json
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\Pong.pdb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\NVorbis.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\Pong.csproj.AssemblyReference.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\Pong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\Pong.AssemblyInfoInputs.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\Pong.AssemblyInfo.cs
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\Pong.csproj.CoreCompileInputs.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\Pong.csproj.Up2Date
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\refint\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\Pong.pdb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\Pong.genruntimeconfig.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\Pong - Copy\obj\Debug\net8.0\ref\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong2\Pong3\obj\Debug\net8.0\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong2\Pong3\obj\Debug\net8.0\refint\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong2\Pong3\obj\Debug\net8.0\Pong.pdb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\Pong.csproj.AssemblyReference.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\Pong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\Pong.AssemblyInfoInputs.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\Pong.AssemblyInfo.cs
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\Pong.csproj.CoreCompileInputs.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\refint\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\Pong.pdb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Content\background.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Content\ArrowsUpDown.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Content\ball.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Content\keysUpDown.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Content\MyMenuFont.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Content\MyMenuFont2.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Content\MyMenuFont2Smaller.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Content\paddle.xnb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Pong.exe
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Pong.deps.json
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Pong.runtimeconfig.json
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Pong.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\Pong.pdb
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\NVorbis.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\Pong.csproj.Up2Date
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\Pong.genruntimeconfig.cache
+C:\Users\vmsch\OneDrive\Afbeeldingen\Study\Gameprogramming\Pong3\obj\Debug\net8.0\ref\Pong.dll

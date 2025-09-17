@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/ArrowsUpDown.png</File>
+    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/ball.png</File>
+    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/keysUpDown.png</File>
+    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/MyMenuFont.spritefont</File>
+    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/MyMenuFont2.spritefont</File>
+    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/MyMenuFont2Smaller.spritefont</File>
+    <File>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong3/Content/paddle.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
