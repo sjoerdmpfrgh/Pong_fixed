@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/paddle.png</SourceFile>
-  <SourceTime>2025-09-17T14:51:29.1410227+02:00</SourceTime>
-  <DestFile>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/bin/DesktopGL/paddle.xnb</DestFile>
-  <DestTime>2025-09-17T20:41:10.3807515+02:00</DestTime>
+  <SourceFile>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/abilitySquareBig.png</SourceFile>
+  <SourceTime>2025-09-17T21:12:27.2079611+02:00</SourceTime>
+  <DestFile>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/bin/DesktopGL/abilitySquareBig.xnb</DestFile>
+  <DestTime>2025-09-17T21:13:03.7378963+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-06-02T12:31:02+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
