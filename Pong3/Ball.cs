@@ -55,16 +55,27 @@ class Ball
             vel.Y = -vel.Y;
         }
 
-        if ((BoundingBox.Intersects(Pong.GameWorld.PaddleL.BoundingBox))|| (BoundingBox.Intersects(Pong.GameWorld.PaddleR.BoundingBox)))
+        if (BoundingBox.Intersects(Pong.GameWorld.Paddle1.BoundingBox))
         {
-            if(ballPassedMiddle) 
-            {
-                Pong.GameWorld.roundsTillNextAbility--;
-                ballPassedMiddle = false;
-                vel.X = -vel.X;
-                vel *= speedIncrease;
-                if (redComponent < 20) redComponent++;
-            }
+            double angle = (pos.Y - Pong.GameWorld.Paddle1.pos.Y) / (Pong.GameWorld.Paddle1.paddle.Height) * (2.0f / 3.0f) * Math.PI;
+            vel.X = (float)Math.Cos(angle) * speed;
+            vel.Y = (float)Math.Sin(angle) * speed;
+
+            vel *= speedIncrease;
+
+            if (redComponent < 20) redComponent++;
+            Debug.WriteLine("hello " + pos.Y);
+        }
+        if (BoundingBox.Intersects(Pong.GameWorld.Paddle2.BoundingBox))
+        {
+            double angle = (pos.Y - Pong.GameWorld.Paddle2.pos.Y) / (Pong.GameWorld.Paddle2.paddle.Height) * (2.0f / 3.0f * Math.PI);
+            vel.X = (float)Math.Cos(angle) * -speed;
+            vel.Y = (float)Math.Sin(angle) * speed;
+
+            vel *= speedIncrease;
+
+            if (redComponent < 20) redComponent++;
+            Debug.WriteLine("hello " + pos.Y);
         }
 
     }
