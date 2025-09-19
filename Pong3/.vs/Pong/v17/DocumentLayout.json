@@ -46,8 +46,7 @@
               "RelativeToolTip": "PowerUp.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAAADgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T15:54:54.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T15:54:54.729Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Paddle.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAAD8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T09:22:54.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T09:22:54.888Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Pong.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T09:09:07.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T09:09:07.058Z"
             },
             {
               "$type": "Document",
@@ -83,7 +80,7 @@
               "RelativeDocumentMoniker": "Ball.cs",
               "ToolTip": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Ball.cs",
               "RelativeToolTip": "Ball.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T09:17:47.54Z",
               "EditorCaption": ""
@@ -98,8 +95,7 @@
               "RelativeToolTip": "GameWorld.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T09:12:16.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T09:12:16.402Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "InputHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T09:10:49.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T09:10:49.27Z"
             }
           ]
         }
