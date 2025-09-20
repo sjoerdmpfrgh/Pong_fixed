@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong_fixed/Pong3/Content/MyMenuFont.spritefont</SourceFile>
-  <SourceTime>2025-09-17T09:31:19.1986679+02:00</SourceTime>
-  <DestFile>C:/Users/vmsch/OneDrive/Afbeeldingen/Study/Gameprogramming/Pong_fixed/Pong3/Content/bin/DesktopGL/Content/MyMenuFont.xnb</DestFile>
-  <DestTime>2025-09-17T16:13:52.0103124+02:00</DestTime>
+  <SourceFile>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/MyMenuFont.spritefont</SourceFile>
+  <SourceTime>2025-09-17T14:51:29.0907644+02:00</SourceTime>
+  <DestFile>C:/Users/micha/Documents/GitHub/Pong_fixed/Pong3/Content/bin/DesktopGL/Content/MyMenuFont.xnb</DestFile>
+  <DestTime>2025-09-17T14:53:29.8990732+02:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2025-06-02T12:31:02+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

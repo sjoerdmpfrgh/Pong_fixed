@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Reflection;
 
 class Paddle
@@ -10,6 +11,7 @@ class Paddle
     Vector2 pos, or;
     float speed, yDir;
     string player;
+    Color paddleColor;
 
     public Paddle(ContentManager Content, string player)
     {
@@ -28,7 +30,14 @@ class Paddle
               && pos.Y > or.Y
             )
         {
-            yDir = -speed;
+            
+            if(Pong.GameWorld.abilityInUse && Pong.GameWorld.abilityGenerated == 0 && Pong.GameWorld.playerAffected == player)
+            {
+                yDir = -speed * 1.5f;
+            }
+            else 
+                yDir = -speed;
+            
         }
         else if ( ( (player == "one" && inputHelper.KeyDown(Keys.S))
                     ||
@@ -36,7 +45,12 @@ class Paddle
                     && pos.Y < Pong.ScreenSize.Y - or.Y
                 )
         {
-            yDir = speed;
+            if(Pong.GameWorld.abilityInUse && Pong.GameWorld.abilityGenerated == 0 && Pong.GameWorld.playerAffected == player)
+            {
+                yDir = speed * 1.5f;
+            }
+            else
+                yDir = speed;
         }
         else
         {
@@ -48,11 +62,23 @@ class Paddle
     {
         float dt = (float)gameTime.ElapsedGameTime.TotalSeconds;
         pos.Y += yDir * dt;
+
+        if (Pong.GameWorld.abilityInUse && Pong.GameWorld.playerAffected == player)
+        {
+            if(Pong.GameWorld.abilityGenerated == 0)
+                paddleColor = new Color (0, 0, 255);
+            else
+                paddleColor = new Color (255, 0, 0);
+        }
+        else
+        {
+            paddleColor = new Color(255, 255, 255);
+        }
     }
 
     public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
     {
-        spriteBatch.Draw(paddle, pos, null, Color.White, 0f, or, 1.0f, SpriteEffects.None, 0);
+        spriteBatch.Draw(paddle, pos, null, paddleColor, 0f, or, 1.0f, SpriteEffects.None, 0);
     }
 
     public Rectangle BoundingBox

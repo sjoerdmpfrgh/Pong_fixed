@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vmsch\\OneDrive\\Afbeeldingen\\Study\\Gameprogramming\\Pong_fixed\\Pong3\\Pong.csproj": {}
+    "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Pong.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vmsch\\OneDrive\\Afbeeldingen\\Study\\Gameprogramming\\Pong_fixed\\Pong3\\Pong.csproj": {
+    "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Pong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vmsch\\OneDrive\\Afbeeldingen\\Study\\Gameprogramming\\Pong_fixed\\Pong3\\Pong.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Pong.csproj",
         "projectName": "Pong",
-        "projectPath": "C:\\Users\\vmsch\\OneDrive\\Afbeeldingen\\Study\\Gameprogramming\\Pong_fixed\\Pong3\\Pong.csproj",
-        "packagesPath": "C:\\Users\\vmsch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vmsch\\OneDrive\\Afbeeldingen\\Study\\Gameprogramming\\Pong_fixed\\Pong3\\obj\\",
+        "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Pong.csproj",
+        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vmsch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

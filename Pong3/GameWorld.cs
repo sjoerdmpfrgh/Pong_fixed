@@ -2,17 +2,30 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Reflection;
 
 class GameWorld
 {
     Ball ball;
-    Paddle paddle1, paddle2; 
-    
+    Paddle paddle1, paddle2;
+    public PowerUp powerUp;
     int playPhase = 0; //0 = opening screen, 1 = playing, 2 = game over
-
+    //public static Random r2 = new Random();
+    public int roundsTillNextAbility = 6;
+    public Vector2 alteredPosition1;
+    public Vector2 alteredPosition2;
+    public Texture2D alteredPaddle1;
+    public Texture2D alteredPaddle2;
     public int score1 = 0;
     public int score2 = 0;
+    public int roundsLeftOfAbility = 3;
+    public int spawnSide;
+    public bool resetPowerUps = false;
+    public int abilityGenerated; //0 = speed, 1 = strength
+    public string playerAffected;
+    public bool abilitySpawned = false;
+    public bool abilityInUse = false;
     string displayText = "Press Space to Start"; 
     
     SpriteFont font1, font2, font3;
@@ -32,7 +45,9 @@ class GameWorld
         ball = new Ball(Content);
         paddle1 = new Paddle(Content, "one");
         paddle2 = new Paddle(Content, "two"); 
-        
+        powerUp = new PowerUp(Content);
+       
+
         font1 = Content.Load<SpriteFont>("MyMenuFont");
         font2 = Content.Load<SpriteFont>("MyMenuFont2");
         font3 = Content.Load<SpriteFont>("MyMenuFont2Smaller");
@@ -63,6 +78,7 @@ class GameWorld
             if (inputHelper.KeyPressed(Keys.R))
             {
                 ball.Reset();
+                powerUp.Reset();
             }
         }
         else
@@ -73,6 +89,7 @@ class GameWorld
                 score2 = 0;
                 playPhase = 0;
                 ball.Reset();
+                powerUp.Reset();
                 paddle1.Reset();
                 paddle2.Reset();
             }
@@ -81,11 +98,20 @@ class GameWorld
 
     public void Update(GameTime gameTime)
     {
+
         if (playPhase == 1)
         {
+            /*
+            if (resetPowerUps)
+            {
+                powerUp.Reset();
+                resetPowerUps = false;
+            }
+            */
             ball.Update(gameTime);
             paddle1.Update(gameTime);
             paddle2.Update(gameTime);
+            powerUp.Update(gameTime);
         }
 
         if (score1 == 3 || score2 == 3)
@@ -117,6 +143,7 @@ class GameWorld
         ball.Draw(gameTime, spriteBatch);
         paddle1.Draw(gameTime, spriteBatch);
         paddle2.Draw(gameTime, spriteBatch);
+        powerUp.Draw(gameTime, spriteBatch);
 
         spriteBatch.DrawString(font1, score1.ToString(), font1Pos, Color.White);
         spriteBatch.DrawString(font1, score2.ToString(), font2Pos, Color.White);

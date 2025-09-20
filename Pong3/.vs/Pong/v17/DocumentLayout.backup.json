@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|c:\\users\\micha\\documents\\github\\pong_fixed\\pong3\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|solutionrelative:powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|c:\\users\\micha\\documents\\github\\pong_fixed\\pong3\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|solutionrelative:ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|c:\\users\\micha\\documents\\github\\pong_fixed\\pong3\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|solutionrelative:paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|c:\\users\\micha\\documents\\github\\pong_fixed\\pong3\\gameworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|solutionrelative:gameworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|c:\\users\\micha\\documents\\github\\pong_fixed\\pong3\\pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|solutionrelative:pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|c:\\users\\micha\\documents\\github\\pong_fixed\\pong3\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|solutionrelative:powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|c:\\users\\micha\\documents\\github\\pong_fixed\\pong3\\gameworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|solutionrelative:gameworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|c:\\users\\micha\\documents\\github\\pong_fixed\\pong3\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|solutionrelative:inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|c:\\users\\micha\\documents\\github\\pong_fixed\\pong3\\paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5333D4-C5F0-4945-AB14-5A4B7258EFAB}|Pong.csproj|solutionrelative:paddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "PowerUp.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\PowerUp.cs",
               "RelativeDocumentMoniker": "PowerUp.cs",
               "ToolTip": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\PowerUp.cs",
               "RelativeToolTip": "PowerUp.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAADgAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T15:54:54.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Paddle.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Paddle.cs",
               "RelativeDocumentMoniker": "Paddle.cs",
               "ToolTip": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Paddle.cs",
               "RelativeToolTip": "Paddle.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAD8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T09:22:54.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Pong.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Pong.cs",
               "RelativeDocumentMoniker": "Pong.cs",
@@ -77,33 +77,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Ball.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Ball.cs",
               "RelativeDocumentMoniker": "Ball.cs",
               "ToolTip": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\Ball.cs",
               "RelativeToolTip": "Ball.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAF8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T09:17:47.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameWorld.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\GameWorld.cs",
               "RelativeDocumentMoniker": "GameWorld.cs",
               "ToolTip": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\GameWorld.cs",
               "RelativeToolTip": "GameWorld.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAGkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T09:12:16.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "InputHelper.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Documents\\GitHub\\Pong_fixed\\Pong3\\InputHelper.cs",
               "RelativeDocumentMoniker": "InputHelper.cs",
